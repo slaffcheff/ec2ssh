@@ -21,8 +21,9 @@ Usage
 
 Example
 
-    ec2ssh mydev      # Interactive login
-    ec2ssh mydev echo "Hello Secure Cloud World"
+    ec2ssh mydev                                   # Interactive login
+    ec2ssh mydev -l ubuntu                         # Specify the user
+    ec2ssh mydev echo "Hello Secure Cloud World"   # Run command
 
 Bugs
 
