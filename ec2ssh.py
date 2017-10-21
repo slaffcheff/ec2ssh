@@ -5,6 +5,7 @@ ec2ssh: SSH *securely* to an EC2 instance without known_hosts hassles
 
 Features
 
+    - Uses standard cloud-init pubkeys, grabbed via EC2 console output
     - Custom known_hosts files (per-instance-address) are stored in ~/.ec2ssh/.
     - Reassigning elastic IPs is fine!
     - Caching of pubkeys is done basically for free
